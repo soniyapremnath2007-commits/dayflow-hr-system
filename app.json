@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Dayflow",
+    "slug": "dayflow",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dayflow",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-asset"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dayflow.mobile"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#3154D8"
+      },
+      "package": "com.dayflow.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
